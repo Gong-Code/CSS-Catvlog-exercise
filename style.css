@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --header-text-color: #683257;
+    --text-color: #cc6600;
+    --content-text-color: #993333;
+    
+    
+}
+
+body{
+    margin: 0;
+    line-height: 0;
+    font-family: sans-serif;
+    text-align: center; 
+    background-color: lightgray;
+    
+        
+}
+
+.article{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headerTitle{
+    font-size: 46px;
+    color: var(--header-text-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.posted{
+    padding: 20px;
+    margin: 4px;
+    color: var(--text-color);
+    font-size: 12px;
+    
+}
+
+.content{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--content-text-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.catImage{
+    border-radius: 60px;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    box-shadow: 20px 20px 10px grey;
+
+}
+
+.catTitle{
+    padding: 45px;
+    font-size: 20px;
+    color: #cc6699;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.socialMedia{
+    padding: 60px;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.socialMedia li a{
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    background: linear-gradient(0deg, #ddd #fff);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    padding: 6px;
+    margin: 0 10px;
+    border-radius: 50%;
+    font-size: 48px;
+    color: #003366;
+    line-height: 48px;
+    box-sizing: border-box;
+    
+}
+
+.socialMedia li a:hover{
+    background-color: gray;
+}
+
+
+
